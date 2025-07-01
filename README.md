@@ -2,6 +2,8 @@
 
 This is a simple web-based video player that allows users to play local video files, load subtitles, and create a navigation menu from a timestamp file. It also includes a feature to convert raw timestamp text into a compatible JSON format.
 
+For a detailed, step-by-step guide on how this project was built and the concepts behind it, please see the [Learning Guide](learning.md).
+
 ## Features
 
 *   Play local video files.
