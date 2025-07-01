@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+video {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navigation li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#navigation li:hover {
+    background-color: #f0f0f0;
+}
+
+.timestamp-converter {
+    margin-top: 20px;
+}
+
+.timestamp-converter textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.timestamp-converter button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.timestamp-converter button:hover {
+    background-color: #0056b3;
+}
